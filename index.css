@@ -1,0 +1,51 @@
+.parentTop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridTop{
+  border: 1px solid #ff0000;
+  display: flex;
+  flex-direction: column;
+}
+
+.lightBackground {
+  background-color: #00FFFF
+}
+
+.columnsStyle {
+  display: flex;
+  flex-direction: column;
+}
+
+.rowStyle {
+  display: flex;
+}
+
+.darkBackground {
+  background-color: #F0FFFF
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.cross{
+  color: #ff9900;
+  font-size: 2.5em;
+  border-radius: 5px;
+  line-height: 100px;
+}
